@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.margen{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    margin-top: 0.02px;
+}
+.pad{
+    background-color: yellow;
+width: 300px;
+height: 200px;
+padding: 50px 40px 50px 40px;
+}
+.bor{
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    border: 7px dotted red;
+}
+.flex{
+background-color: tomato;
+    display: flex;
+flex-direction: row;
+justify-content: flex-end;
+width: 50px;
+height: 50px;
+}
+.fi{
+background-color: blue;
+}
+.fi1{
+   background-color: violet; 
+}

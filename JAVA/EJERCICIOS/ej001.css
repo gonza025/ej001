@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+legend{
+    color: blanchedalmond;
+}
+label{
+    color: antiquewhite;
+}
+video{
+    position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	z-index: -50;
+	visibility: visible;
+}
+
+header{
+    display: block;
+}    
+header h1{
+   margin: 2%;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 7px 2px rgba(197, 188, 188, 0.329);
+    color: black;
+}
+h1{
+    text-align: center;
+}
+p{ 
+background-color: transparent;
+    color: lightgray;
+text-align: center;
+border: solid 1% black;
+padding: 2%;
+}
+nav ul{
+    text-align: center;
+    justify-content: space-around;
+}
+nav li{ 
+display: inline-block;
+    padding: 10px 10px;
+    transition: all 0.7s ease 2s; 
+
+}    
+li:hover{
+border-radius: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+padding: 2px;
+}
+nav a:hover{
+background-color: lightskyblue;
+padding: 3px;
+border-radius: 4px solid;
+}
+nav.secciones{
+    background-color: transparent;
+}
+nav.secciones:hover{
+    background-color: crimson;
+    transition: all 3s;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-top: 5%;
+}
+main p{
+    background-color: transparent;
+}
+section h1{
+padding: 5%;
+background-color: slategray;
+border: solid ;
+}
+section h1:hover{border: solid red;
+    background-color: black;
+
+}
+section.herre ul{text-align: center; 
+    list-style-type: none;
+    background-color: transparent;
+}
+section.elec ul{
+    text-align: center;
+    list-style-type: none;
+}
+section.refri ul{
+    text-align: center;
+    list-style-type: none;
+}
+footer{
+background-color: transparent;
+    display: flex;
+flex-direction: row;
+border: solid 1px;
+margin: 3%;
+}
+.pie{
+text-align: center;}
+.pie:hover{
+    background-color: crimson;
+    transition: all 5s;
+}
+footer img{
+    width: 10%;
+    padding: 3%;
+}
+
+aside {
+
+    border: solid black;
+    background-color: black;
+    color: white;
+
+}
+.lateral ul{
+    display: block;
+    justify-content: space-around;
+
+}
+.lateral li{
+    display: block;
+}
+
+
+
+
+
+
